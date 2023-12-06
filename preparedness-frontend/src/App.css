@@ -1,0 +1,33 @@
+body{
+    background-image: url("C:\Users\Dalton McAuliffe\OneDrive\Desktop\preparedness-assessment\preparedness-assessment-DaltonMcauliffe\preparedness-frontend\src\assets\background-image.jpeg");
+}
+.entire-content h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.form {
+    text-align: center;
+}
+
+.input Label {
+    color: white;
+    font-size: 35px;
+}
+
+.input Input {
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+    padding: 6px 12px;
+}
+
+.form Button {
+    background-color: #0dcaf0;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    margin: 20px 10px 0px;
+    display: inline-block;
+}
