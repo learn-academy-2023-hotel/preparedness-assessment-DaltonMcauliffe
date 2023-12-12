@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
-
 const ModalComponent = ({ modal, name, toggle }) => {
 
   return (
@@ -22,5 +21,4 @@ const ModalComponent = ({ modal, name, toggle }) => {
     </div>
   );
 };
-
 export default ModalComponent;
