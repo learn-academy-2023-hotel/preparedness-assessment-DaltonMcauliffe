@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 const ModalComponent = ({ modal, name, toggle }) => {
-
   return (
     <div>
       <Modal isOpen={modal} toggle={toggle}>
