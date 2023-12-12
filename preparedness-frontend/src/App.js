@@ -4,16 +4,17 @@ import ModalComponent from "./components/ModalComponent";
 import "./App.css";
 
 const App = () => {
+ 
   const [modal, setModal] = useState(false);
-
+ 
   const [name, setName] = useState("");
-
+ 
   const handleChange = (e) => {
     setName(e.target.value);
   };
-
+  
   const toggle = () => setModal(!modal);
-
+  
   const reset = () => setName("");
 
 
